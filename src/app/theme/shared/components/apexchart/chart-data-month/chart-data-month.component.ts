@@ -80,6 +80,6 @@ export class ChartDataMonthComponent implements OnInit {
         data: value === 'month' ? [45, 66, 41, 89, 25, 44, 9, 54] : [35, 44, 9, 54, 45, 66, 41, 69]
       }
     ];
-    this.amount = value === 'month' ? 108 : 961;
+    this.amount = value === 'month' ? 108 : 15;
   }
 }
